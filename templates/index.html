@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+
+<div class="imgbox">
+    <img id="img" src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?cs=srgb&dl=grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg&fm=jpg" alt="img_of_blog" style="width:100%;">
+
+    <hr />
+
+    <div class="content">
+        <h1 id="welcome"> Welcome </h1>
+    </div>
+
+</div>
+
+
+<br>
+<main role="main">
+    <div id="index" class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1 id="journey"> Programming Journey </h1>
+            <hr />
+            <p>
+                This blog entails my journey of learning back end programming. The posts entail the efforts and steps that I made each day as well as the milestones that I achieved over time.
+                
+            </p>
+            
+            <p>
+                <a class="btn btn-secondary" href="/posts" role="button">Go To Posts &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
